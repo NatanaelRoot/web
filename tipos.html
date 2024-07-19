@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hosting - Tipos</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar bg-body-tertiary position-sticky top-0">
+        <div class="container-fluid">
+          <a href="index.html"><img src="img/logoofi.webp" alt="" class="navbar__logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">TEMAS A DESARROLLAR</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="introduccion.html">Introduccion Hosting</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="tipos.html">Tipos de Hosting</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="factores.html">Factores a Considerar al Elegir un Hosting</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="tendencias.html">Tendencias Actuales en Hosting</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="conclusion.html">Conclusión</a>
+                </li>
+  
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container">
+
+        <section class="introduccion">
+
+            <h2 class="introduccion__title">
+                Tipos de Hosting
+            </h2>
+
+            <ol class="introduccion__lista">
+                <li class="introduccion__item">
+                    <span>Hosting Compartido:</span>
+                    <p>En el hosting compartido, múltiples sitios web comparten los recursos de un mismo servidor físico. Cada sitio tiene su propio espacio y recursos asignados, pero comparte la CPU, la memoria RAM y el ancho de banda con otros sitios alojados en el mismo servidor.</p>
+                    <p class="negra">Características principales:</p>
+                    <ul class="lista">
+                        <li><span>Economía:</span> Es la opción más económica porque los costos se comparten entre varios usuarios.</li>
+                        <li style="margin-bottom: 1em;"><span>Facilidad de uso:</span> Ideal para principiantes ya que el proveedor se encarga de la administración del servidor.</li>
+                    </ul>
+                    <p class="negra">Ventajas:</p>
+                    <ul>
+                        <li>Costo reducido</li>
+                        <li style="margin-bottom: 1em;">Configuración y mantenimiento sencillos.</li>
+                    </ul>
+                    <p class="negra">Desventajas:</p>
+                    <ul>
+                        <li>Rendimiento puede verse afectado por otros sitios en el mismo servidor.</li>
+                        <li style="margin-bottom: 1em;">Menor control sobre configuraciones avanzadas.</li>
+                    </ul>
+                    <figure class="imagen">
+                        <img src="img/compar.webp" alt="" class="img">
+                    </figure>
+                </li>
+                <li class="introduccion__item">
+                    <span>Hosting en la Nube:</span>
+                    <p>El hosting en la nube utiliza varios servidores interconectados que forman una red (nube) para alojar sitios web. Los recursos como CPU y RAM pueden ser escalados dinámicamente según la demanda del sitio web.</p>
+                    <p class="negra">Características principales:</p>
+                    <ul class="lista">
+                        <li><span>Escalabilidad:</span> Capacidad para aumentar o reducir recursos según las necesidades del sitio web.</li>
+                        <li><span>Alta disponibilidad:</span> Redundancia de servidores reduce el riesgo de tiempos de inactividad.</li>
+                        <li style="margin-bottom: 1em;">Pago por uso: Se paga solo por los recursos utilizados.</li>
+                    </ul>
+                    <p class="negra">Ventajas:</p>
+                    <ul>
+                        <li>Escalabilidad instantánea y flexibilidad.</li>
+                        <li style="margin-bottom: 1em;">Alta disponibilidad y rendimiento optimizado.</li>
+                    </ul>
+                    <p class="negra">Desventajas:</p>
+                    <ul>
+                        <li>Costos variables según el consumo de recursos.</li>
+                        <li style="margin-bottom: 1em;">Dependencia de la conexión a Internet y la infraestructura del proveedor de servicios en la nube.</li>
+                    </ul>
+                    <figure class="imagen">
+                        <img src="img/tipo2.webp" alt="" class="img">
+                    </figure>
+                </li>
+                <li class="introduccion__item">
+                    <span>Hosting Dedicado:</span>
+                    <p> En el hosting dedicado, un servidor completo está dedicado exclusivamente a un solo cliente. Esto significa que el cliente tiene control total sobre los recursos del servidor, incluyendo la CPU, RAM, espacio de almacenamiento y ancho de banda.</p>
+                    <p class="negra">Características principales:</p>
+                    <ul class="lista">
+                        <li><span>Control total:</span> Acceso completo a todos los recursos del servidor.</li>
+                        <li><span>Rendimiento:</span> Alto rendimiento y capacidad para manejar grandes volúmenes de tráfico.</li>
+                        <li style="margin-bottom: 1em;">Seguridad: Mayor seguridad debido al aislamiento de recursos.</li>
+                    </ul>
+                    <p class="negra">Ventajas:</p>
+                    <ul>
+                        <li>Alto nivel de rendimiento y seguridad.</li>
+                        <li style="margin-bottom: 1em;">Flexibilidad en la configuración del servidor.</li>
+                    </ul>
+                    <p class="negra">Desventajas:</p>
+                    <ul>
+                        <li>Costo más elevado en comparación con otras opciones de hosting.</li>
+                        <li style="margin-bottom: 1em;">Requiere conocimientos técnicos para administrar y mantener el servidor.</li>
+                    </ul>
+                    <figure class="imagen">
+                        <img src="img/tipo3.webp" alt="" class="img">
+                    </figure>
+                </li>
+                <li class="introduccion__item">
+                    <span>Hosting VPS (Servidor Privado Virtual):</span>
+                    <p>Un servidor privado virtual es una combinación entre hosting compartido y dedicado. Utiliza virtualización para dividir un servidor físico en múltiples servidores virtuales, cada uno con recursos asignados y aislados.</p>
+                    <p class="negra">Características principales:</p>
+                    <ul class="lista">
+                        <li><span>Aislamiento de recursos:</span> Cada VPS tiene su propio espacio, RAM, CPU y ancho de banda.</li>
+                        <li><span>Control:</span> Los usuarios tienen control root o administrador sobre su entorno virtual.</li>
+                        <li style="margin-bottom: 1em;">Flexibilidad: Escalabilidad vertical permitiendo aumentar recursos sin cambiar de servidor.</li>
+                    </ul>
+                    <p class="negra">Ventajas:</p>
+                    <ul>
+                        <li>Mayor control y personalización que el hosting compartido.</li>
+                        <li style="margin-bottom: 1em;">Costo más bajo que un servidor dedicado.</li>
+                    </ul>
+                    <p class="negra">Desventajas:</p>
+                    <ul>
+                        <li>Menor rendimiento que un servidor dedicado en situaciones de alta demanda.</li>
+                        <li style="margin-bottom: 1em;">Requiere conocimientos técnicos para administrar correctamente.</li>
+                    </ul>
+                    <figure class="imagen">
+                        <img src="img/tipo4.png" alt="" class="img">
+                    </figure>
+                </li>
+
+                <li class="introduccion__item">
+                    <span>Hosting Reseller (Revendedor):</span>
+                    <p>El hosting reseller permite a los usuarios revender el espacio y ancho de banda de un plan de hosting. Es utilizado por diseñadores web o agencias que desean ofrecer servicios de hosting a sus clientes.</p>
+                    <p class="negra">Características principales:</p>
+                    <ul class="lista">
+                        <li><span>Marca blanca:</span> Permite revender servicios bajo su propia marca.</li>
+                        <li><span>Gestión centralizada:</span> Panel de control para administrar múltiples cuentas de hosting.</li>
+                        <li style="margin-bottom: 1em;">Soporte técnico: Algunos proveedores ofrecen soporte técnico para clientes del revendedor.</li>
+                    </ul>
+                    <p class="negra">Ventajas:</p>
+                    <ul>
+                        <li>Oportunidad de generar ingresos adicionales.</li>
+                        <li style="margin-bottom: 1em;">No requiere infraestructura propia de servidores.</li>
+                    </ul>
+                    <p class="negra">Desventajas:</p>
+                    <ul>
+                        <li>Responsabilidad de gestionar el soporte al cliente.</li>
+                        <li style="margin-bottom: 1em;">Dependencia del proveedor de hosting principal.</li>
+                    </ul>
+                    <figure class="imagen">
+                        <img src="img/tipo5.png" alt="" class="img">
+                    </figure>
+                </li>
+            </ol>
+
+        </section>
+
+      </div>
+
+      <footer class="footer">
+
+        <p class="footer__text">
+            Los genios no nacen, Ascon los hace 😎⚽
+        </p>
+
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
